@@ -1,0 +1,62 @@
+
+.hamburger {
+    cursor: pointer;
+}
+
+.menuClose {
+    list-style-type: none;
+    padding-left: 0;
+    width: 200px;
+    visibility: hidden;
+    opacity:0;
+    transition: visibility 0.3s linear, opacity 0.8s linear; 
+}
+
+.menuOpen {
+     visibility:visible;
+     list-style-type: none;
+     padding-left: 0;
+     width: 200px;
+    opacity:1;
+    transition: visibility 0.3s linear, opacity 0.8s linear; 
+ }
+
+.chooseColor{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color:black;
+    cursor: pointer;
+    padding: 8px 4px;
+    display: block;
+}   
+
+.red{
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    line-height: 0.2em;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace
+}

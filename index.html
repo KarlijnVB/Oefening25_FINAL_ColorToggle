@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Toggle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Color Toggle</h1>
+    </header>
+
+    <div>
+        <button class="hamburger">
+            <i id="hamburgerMenuIcon" class="material-icons">menu</i>
+        </button>
+        <div class="divMenu">
+            <ul id="menu" class="menuClose">
+                <li id="backgroundRed" class="chooseColor red" value="1"> <input type="radio" name="colorRadio"
+                        id="radioRed" value="Red"> Red</li>
+                <li id="backgroundBlue" class="chooseColor blue" value="2"> <input type="radio" name="colorRadio"
+                        id="radioBlue" value="Blue"> Blue</li>
+                <li id="backgroundGreen" class="chooseColor green"> <input type="radio" name="colorRadio"
+                        id="radioGreen" value="Green"> Green</li>
+                <li id="backgroundYellow" class="chooseColor yellow"> <input type="radio" name="colorRadio"
+                        id="radioYellow" value="Yellow"> Yellow</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 id="textColor">Choose a color! </h2>
+    <p>In the hamburger-menu or with the keys on your keyboard as below:</p>
+    <p>1: Red</p>
+    <p>2: Blue</p>
+    <p>3: Green</p>
+    <p>4: Yellow</p>
+
+</body>
+<script defer src="script.js"></script>
+
+</html>
